@@ -378,7 +378,7 @@ class Config:
 
     def __init__(self) -> None:
         key = "eb0abca617432754f19ad3b0f02c44ad041709bfba8fdb18c87463459394bff8"  # hexified 32 byte key (128-bit)
-        config_file_name = "client\\config.aes"  # config file path like config.aes, configuration.dat or conf.ini
+        config_file_name = "config.aes"  # config file path like config.aes, configuration.dat or conf.ini
 
         self.config = configparser.ConfigParser()
 
