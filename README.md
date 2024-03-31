@@ -19,7 +19,7 @@
   ```ini
   [main]
   # base 85 encoded and hexified discord webhook
-  discord_webhook=ENCODED_DISCORD_WEBHOOK <--- Put the webhook output here
+  discord_webhook=DISCORD_WEBHOOK <--- Put the encoded webhook here
   ```
 - File dropper if wanted:
   - generate shellcode with [Donut](https://github.com/TheWover/donut) for an executable file to e.g. `shellc.dat`
@@ -31,7 +31,7 @@
     # file path storing AES encrypted and compressed shellcode
     shellcode_file_name=shellc.aes
     # hexified 32 byte (128-bit AES key)
-    shellcode_key=AES_KEY
+    shellcode_key=AES_KEY <--- Put the AES key here
     ```
 - Now encrypt the config file:
   - `python utils\aes_encrypt.py client\config.ini client\config.aes`
