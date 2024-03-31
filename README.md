@@ -2,6 +2,7 @@
 ## Rewritten version of the rose malware family.
 
 > [!CAUTION]
+> I am not liable for anything that is happening with this software.
 > If you don't trust it, read the source.
 
 > [!IMPORTANT]
