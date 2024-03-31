@@ -40,4 +40,6 @@
     key = "AES_KEY"  # hexified 32 byte key (128-bit)  <--- Put the AES key here
     ```
 (Additionally i would recommend to add obfuscation on the script now.)
-- You can now compile it into a binary: `pyinstaller --onefile --add-data "client\shellc.aes;." --add-data "client\config.aes;." --hidden-import cryptography --hidden-import pywin32 --hidden-import pillow --hidden-import aiohttp client\main.py`
+- You can now compile it into a binary: `pyinstaller --clean --onefile --add-data "client\shellc.aes;." --add-data "client\config.aes;." --hidden-import cryptography --hidden-import pywin32 --hidden-import pillow --hidden-import aiohttp client\main.py`
+
+**Yippie! Your executable is now inside of the `dist` folder.**
