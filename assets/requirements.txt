@@ -1,0 +1,4 @@
+cryptography
+pywin32
+pillow
+aiohttp
